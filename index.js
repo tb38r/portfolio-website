@@ -44,16 +44,16 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
 
-sendEmailBtn.addEventListener('click', ()=>{
+// sendEmailBtn.addEventListener('click', ()=>{
 
-  console.log('hello');
-  if (sender.length > 0 && email.contains('@') && message.length > 0){
-    sendMail(sender, email, message)
-  console.log('world');
-  } 
+//   console.log('hello');
+//   if (sender.length > 0 && email.contains('@') && message.length > 0){
+//     sendMail(sender, email, message)
+//   console.log('world');
+//   } 
 
 
-})
+// })
 
 
 const sendMail = (name, email, message) =>{
