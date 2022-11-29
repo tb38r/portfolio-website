@@ -322,6 +322,16 @@ textarea {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
 
+          #brick-styling-home{
+            object-fit: contain;
+            max-height: 375px;
+          }
+          #brick-styling-focus{
+            object-fit: contain;
+            max-height: 400px;
+            ;
+          }
+
 .contact {
   background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
